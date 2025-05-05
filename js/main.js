@@ -61,10 +61,19 @@ $(function () {
                 breakpoint: 845,
                 settings: {
                     // ブレークポイント（デバイスの幅が768ピクセル以下の場合）では、
-                    centerPadding: "100px",
+                    centerPadding: "50px",
                     slidesToShow: 3,
                     // centerPaddingとslidesToShowの値が変更され、中央余白が"50px"に、表示されるスライドの数が1になります
                 },
+                breakpoint: 450,
+                settings: {
+                    // ブレークポイント（デバイスの幅が768ピクセル以下の場合）では、
+                    centerPadding: "40px",
+                    slidesToShow: 2,
+                    // centerPaddingとslidesToShowの値が変更され、中央余白が"50px"に、表示されるスライドの数が1になります
+                },
+
+
             },
         ],
     });
