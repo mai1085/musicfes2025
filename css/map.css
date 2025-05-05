@@ -148,6 +148,7 @@ header {
     margin-left: 30px;
     padding-right: 10px;
 }
+
 .map-text li i {
     padding-right: 6px;
 }
@@ -174,9 +175,9 @@ header {
     border: 1px solid gainsboro;
 }
 
-.map-area dd {
+/* .map-area dd {
     width: 50%;
-}
+} */
 
 .east-area {
     background-color: #51a854;
@@ -369,14 +370,14 @@ footer p {
 
 
     .title {
-        height: 900px;
+        height: 825px;
     }
 
     .map-text {
         margin-top: 40px;
         line-height: 2;
     }
-    
+
     .map-text ul {
         /* flex-direction: column;
         margin: 0; */
@@ -390,13 +391,45 @@ footer p {
         font-size: 18px;
     }
 
-
     .map-area {
-        padding-top: 10px;
-        padding-left: 20px;
+        padding-left: 7px;
     }
 
-    
+    .map-area dd {
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .map-area dl {
+        margin-top: 0;
+    }
+    .map-area dt {
+        height: 20px;
+    }
+        
+        /* border: 1px solid red; */
+        /* padding-top: 5px;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .map-area dd {
+        width: 50%;
+    } */
 
 
-}
+        @media (max-width:600px) {
+
+            
+    .title {
+        height: 700px;
+    }
+            .map-text li {
+                margin-left: 7px;
+                font-size: 10px;
+                padding-right: 7px;
+            }
+
+        
+
+        }
+    }

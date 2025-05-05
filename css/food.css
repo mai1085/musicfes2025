@@ -369,11 +369,15 @@ footer p {
     .foods-img {
         width: 100%;
         padding-left: 0;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
     }
 
     .foods-last {
         margin-bottom: 0;
+    }
+
+    .foods-text {
+        font-size: 12px;
     }
 
 

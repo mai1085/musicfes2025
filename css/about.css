@@ -124,7 +124,7 @@ header {
 }
 
 .title dt {
-    width: 25%;
+    width: 35%;
     border-bottom: 1px solid #246404;
     padding-top: 20px;
 }
@@ -313,6 +313,27 @@ footer p {
     }
 
 
+    .title dl {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5% 10% 10% 10%;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+    
+    .title dt {
+        width: 25%;
+        border-bottom: 1px solid #246404;
+        padding-top: 15px;
+    }
+    
+    .title dd {
+        width: 75%;
+        border-bottom: 1px solid #246404;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-left: 0;
+    }
 
 
 
